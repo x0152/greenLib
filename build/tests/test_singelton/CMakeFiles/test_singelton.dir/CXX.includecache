@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/singelton/non_copyable.h
+
+../src/singelton/non_movable.h
+
+../src/singelton/singelton.h
+non_movable.h
+../src/singelton/non_movable.h
+non_copyable.h
+../src/singelton/non_copyable.h
+
+../src/tests/tests.h
+functional
+-
+string
+-
+list
+-
+
+/home/x0152/mysrc/cpp/green_lib/tests/test_singelton/main.cpp
+iostream
+-
+singelton.h
+/home/x0152/mysrc/cpp/green_lib/tests/test_singelton/singelton.h
+tests.h
+/home/x0152/mysrc/cpp/green_lib/tests/test_singelton/tests.h
+

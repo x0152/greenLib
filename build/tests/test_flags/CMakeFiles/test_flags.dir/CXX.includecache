@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/flags/flags.h
+
+/home/x0152/mysrc/cpp/green_lib/src/flags/flags.cpp
+
+/home/x0152/mysrc/cpp/green_lib/tests/test_flags/main.cpp
+iostream
+-
+flags.h
+/home/x0152/mysrc/cpp/green_lib/tests/test_flags/flags.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/test_log.dir/main.cpp.o CMakeFiles/test_log.dir/__/__/src/log/log.cpp.o  -o test_log 

@@ -1,0 +1,5 @@
+test_defer 1 0.00123405
+test_flags 1 0.000931978
+test_log 1 0.001019
+test_singelton 1 0.000919819
+---

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/defer/defer.h
+functional
+-
+tuple
+-
+
+/home/x0152/mysrc/cpp/green_lib/src/defer/defer.cpp
+defer.h
+/home/x0152/mysrc/cpp/green_lib/src/defer/defer.h
+
+/home/x0152/mysrc/cpp/green_lib/src/defer/defer.h
+functional
+-
+tuple
+-
+
+/home/x0152/mysrc/cpp/green_lib/tests/test_defer/main.cpp
+iostream
+-
+defer.h
+/home/x0152/mysrc/cpp/green_lib/tests/test_defer/defer.h
+

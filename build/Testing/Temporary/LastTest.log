@@ -1,0 +1,65 @@
+Start testing: Oct 13 03:01 MSK
+----------------------------------------------------------
+1/4 Testing: test_defer
+1/4 Test: test_defer
+Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_defer/test_defer"
+Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_defer
+"test_defer" start time: Oct 13 03:01 MSK
+Output:
+----------------------------------------------------------
+func2
+func1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_defer" end time: Oct 13 03:01 MSK
+"test_defer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_flags
+2/4 Test: test_flags
+Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_flags/test_flags"
+Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_flags
+"test_flags" start time: Oct 13 03:01 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_flags" end time: Oct 13 03:01 MSK
+"test_flags" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_log
+3/4 Test: test_log
+Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_log/test_log"
+Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_log
+"test_log" start time: Oct 13 03:01 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_log" end time: Oct 13 03:01 MSK
+"test_log" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_singelton
+4/4 Test: test_singelton
+Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/test_singelton"
+Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton
+"test_singelton" start time: Oct 13 03:01 MSK
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_singelton" end time: Oct 13 03:01 MSK
+"test_singelton" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 13 03:01 MSK

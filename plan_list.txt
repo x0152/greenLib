@@ -1,0 +1,11 @@
+Green_Lib
+    Now:
+        2017-10-01:    defer -> [Testing...]
+        2017-10-01:    flags -> [Testing...]
+        2017-10-01:    singelton -> [Done.]
+        2017-10-01:    log -> [Done.]
+    Planing:
+        string_formater 
+        config
+
+    
