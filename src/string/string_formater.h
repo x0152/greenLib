@@ -3,6 +3,9 @@
 
 #include <list>
 #include <string>
+#include <sstream>
+#include <algorithm>
+#include <cctype>
 
 using std::list;
 using std::string;
@@ -12,21 +15,21 @@ class StringFormater
 public:
     StringFormater() = delete;
 
-    static list<string> Split(const string str);
+    static list<string> Split(const string str, const string sign);
     static string Join(const list<string> strs, const string sep);
     
-    static list<string> Replace(const string str1, const string str2);
-    static list<string> ReplaceFirst(const string str1, const string str2);
-    static list<string> ReplaceEnd(const string str1, const string str2);
+    static string ReplaceAll(const string str, const list<string> fstr, const string rstr);
 
-    static string Upper(const string str);
-    static string Lower(const string str);
+    static string ReplaceAll(const string str, const string fstr, const string rstr);
+    static string ReplaceFirst(const string str, const string fstr, const string rstr);
+    static string ReplaceEnd(const string str, const string fstr, const string rstr);
+
+    static void Upper(string& str);
+    static void Lower(string& str);
 
     //Remove all spaces
     static string TrimSpace(const string str);
     static string TrimSpecialChars(const string str);
-
-    static string Repeat(const string str1, const int count);
 private:
 };
 

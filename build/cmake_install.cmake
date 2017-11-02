@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/x0152/mysrc/cpp/green_lib/build/tests/test_flags/cmake_install.cmake")
   include("/home/x0152/mysrc/cpp/green_lib/build/tests/test_log/cmake_install.cmake")
   include("/home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/cmake_install.cmake")
+  include("/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/cmake_install.cmake")
 
 endif()
 

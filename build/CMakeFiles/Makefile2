@@ -280,6 +280,61 @@ clean: tests/test_singelton/CMakeFiles/test_singelton.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory tests/test_string
+
+# Convenience name for "all" pass in the directory.
+tests/test_string/all: tests/test_string/CMakeFiles/test_string.dir/all
+
+.PHONY : tests/test_string/all
+
+# Convenience name for "clean" pass in the directory.
+tests/test_string/clean: tests/test_string/CMakeFiles/test_string.dir/clean
+
+.PHONY : tests/test_string/clean
+
+# Convenience name for "preinstall" pass in the directory.
+tests/test_string/preinstall:
+
+.PHONY : tests/test_string/preinstall
+
+#=============================================================================
+# Target rules for target tests/test_string/CMakeFiles/test_string.dir
+
+# All Build rule for target.
+tests/test_string/CMakeFiles/test_string.dir/all:
+	$(MAKE) -f tests/test_string/CMakeFiles/test_string.dir/build.make tests/test_string/CMakeFiles/test_string.dir/depend
+	$(MAKE) -f tests/test_string/CMakeFiles/test_string.dir/build.make tests/test_string/CMakeFiles/test_string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/x0152/mysrc/cpp/green_lib/build/CMakeFiles --progress-num=12,13,14,15 "Built target test_string"
+.PHONY : tests/test_string/CMakeFiles/test_string.dir/all
+
+# Include target in all.
+all: tests/test_string/CMakeFiles/test_string.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+tests/test_string/CMakeFiles/test_string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0152/mysrc/cpp/green_lib/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 tests/test_string/CMakeFiles/test_string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/x0152/mysrc/cpp/green_lib/build/CMakeFiles 0
+.PHONY : tests/test_string/CMakeFiles/test_string.dir/rule
+
+# Convenience name for target.
+test_string: tests/test_string/CMakeFiles/test_string.dir/rule
+
+.PHONY : test_string
+
+# clean rule for target.
+tests/test_string/CMakeFiles/test_string.dir/clean:
+	$(MAKE) -f tests/test_string/CMakeFiles/test_string.dir/build.make tests/test_string/CMakeFiles/test_string.dir/clean
+.PHONY : tests/test_string/CMakeFiles/test_string.dir/clean
+
+# clean rule for target.
+clean: tests/test_string/CMakeFiles/test_string.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -17,3 +17,7 @@
 /home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/CMakeFiles/edit_cache.dir
 /home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/CMakeFiles/test.dir
 /home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/CMakeFiles/test_singelton.dir
+/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/CMakeFiles/edit_cache.dir
+/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/CMakeFiles/test.dir
+/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/CMakeFiles/rebuild_cache.dir
+/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/CMakeFiles/test_string.dir

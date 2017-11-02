@@ -16,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/flags"
   "../src/log"
   "../src/singelton"
+  "../src/string"
   "../tests/test_log/../../src/tests"
   "../tests/test_log/../../src/log"
   )

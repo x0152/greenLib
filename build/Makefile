@@ -173,6 +173,19 @@ test_singelton/fast:
 	$(MAKE) -f tests/test_singelton/CMakeFiles/test_singelton.dir/build.make tests/test_singelton/CMakeFiles/test_singelton.dir/build
 .PHONY : test_singelton/fast
 
+#=============================================================================
+# Target rules for targets named test_string
+
+# Build rule for target.
+test_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_string
+.PHONY : test_string
+
+# fast build rule for target.
+test_string/fast:
+	$(MAKE) -f tests/test_string/CMakeFiles/test_string.dir/build.make tests/test_string/CMakeFiles/test_string.dir/build
+.PHONY : test_string/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,6 +199,7 @@ help:
 	@echo "... test_flags"
 	@echo "... test_log"
 	@echo "... test_singelton"
+	@echo "... test_string"
 .PHONY : help
 
 

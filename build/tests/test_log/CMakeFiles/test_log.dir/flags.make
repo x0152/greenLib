@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/x0152/mysrc/cpp/green_lib/src/tests -I/home/x0152/mysrc/cpp/green_lib/src/defer -I/home/x0152/mysrc/cpp/green_lib/src/flags -I/home/x0152/mysrc/cpp/green_lib/src/log -I/home/x0152/mysrc/cpp/green_lib/src/singelton -I/home/x0152/mysrc/cpp/green_lib/tests/test_log/../../src/tests -I/home/x0152/mysrc/cpp/green_lib/tests/test_log/../../src/log 
+CXX_INCLUDES = -I/home/x0152/mysrc/cpp/green_lib/src/tests -I/home/x0152/mysrc/cpp/green_lib/src/defer -I/home/x0152/mysrc/cpp/green_lib/src/flags -I/home/x0152/mysrc/cpp/green_lib/src/log -I/home/x0152/mysrc/cpp/green_lib/src/singelton -I/home/x0152/mysrc/cpp/green_lib/src/string -I/home/x0152/mysrc/cpp/green_lib/tests/test_log/../../src/tests -I/home/x0152/mysrc/cpp/green_lib/tests/test_log/../../src/log 
 
