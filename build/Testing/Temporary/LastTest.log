@@ -1,10 +1,10 @@
-Start testing: Nov 02 20:28 MSK
+Start testing: Nov 03 17:29 MSK
 ----------------------------------------------------------
 1/5 Testing: test_defer
 1/5 Test: test_defer
 Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_defer/test_defer"
 Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_defer
-"test_defer" start time: Nov 02 20:28 MSK
+"test_defer" start time: Nov 03 17:29 MSK
 Output:
 ----------------------------------------------------------
 func2
@@ -13,7 +13,7 @@ func1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_defer" end time: Nov 02 20:28 MSK
+"test_defer" end time: Nov 03 17:29 MSK
 "test_defer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -21,14 +21,14 @@ Test Passed.
 2/5 Test: test_flags
 Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_flags/test_flags"
 Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_flags
-"test_flags" start time: Nov 02 20:28 MSK
+"test_flags" start time: Nov 03 17:29 MSK
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_flags" end time: Nov 02 20:28 MSK
+"test_flags" end time: Nov 03 17:29 MSK
 "test_flags" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -36,14 +36,14 @@ Test Passed.
 3/5 Test: test_log
 Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_log/test_log"
 Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_log
-"test_log" start time: Nov 02 20:28 MSK
+"test_log" start time: Nov 03 17:29 MSK
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_log" end time: Nov 02 20:28 MSK
+"test_log" end time: Nov 03 17:29 MSK
 "test_log" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -51,14 +51,14 @@ Test Passed.
 4/5 Test: test_singelton
 Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton/test_singelton"
 Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_singelton
-"test_singelton" start time: Nov 02 20:28 MSK
+"test_singelton" start time: Nov 03 17:29 MSK
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_singelton" end time: Nov 02 20:28 MSK
+"test_singelton" end time: Nov 03 17:29 MSK
 "test_singelton" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -66,15 +66,15 @@ Test Passed.
 5/5 Test: test_string
 Command: "/home/x0152/mysrc/cpp/green_lib/build/tests/test_string/test_string"
 Directory: /home/x0152/mysrc/cpp/green_lib/build/tests/test_string
-"test_string" start time: Nov 02 20:28 MSK
+"test_string" start time: Nov 03 17:29 MSK
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_string" end time: Nov 02 20:28 MSK
+"test_string" end time: Nov 03 17:29 MSK
 "test_string" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 02 20:28 MSK
+End testing: Nov 03 17:29 MSK

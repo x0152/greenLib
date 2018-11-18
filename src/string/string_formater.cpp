@@ -1,6 +1,6 @@
 #include "string_formater.h"
 
-list<string> StringFormater::Split(const string str, const string sign){
+list<string> StringFormater::Split(const string& str, const string& sign){
 
     if(str.size() == 0){
         return list<string>(); 
@@ -24,7 +24,7 @@ list<string> StringFormater::Split(const string str, const string sign){
     return strs;
 }
 
-string StringFormater::Join(const list<string> strs, const string sep){
+string StringFormater::Join(const list<string>& strs, const string& sep){
 
     if(strs.size() == 0){
         return string(); 
@@ -47,20 +47,60 @@ string StringFormater::Join(const list<string> strs, const string sep){
     return ss.str();
 }
 
-string StringFormater::ReplaceAll(const string str, const list<string> fstrs, const string rstr){
+string StringFormater::ReplaceAll(const string& str, const list<string>& fstrs, const string& rstr){
+    string buffer = str;
+    for(auto fstr : fstrs){
+        buffer = ReplaceAll(buffer, fstr, rstr);
+    }
 
+    return buffer;
 }
 
-string StringFormater::ReplaceAll(const string str, const string fstr, const string rstr){
+string StringFormater::ReplaceAll(const string& str, const string& fstr, const string& rstr){
 
+    if(str.empty() || fstr.empty()){
+        return string(); 
+    }
+
+    string tmp(str.begin(), str.end());
+    size_t pos = tmp.find(fstr);
+    while(pos != std::string::npos){
+        tmp.replace(tmp.begin() + pos, tmp.begin() + pos + fstr.size(), rstr);
+        pos = tmp.find(fstr);
+    }
+
+    return tmp;
 }
 
-string StringFormater::ReplaceFirst(const string str, const string fstr, const string rstr){
+string StringFormater::ReplaceFirst(const string& str, const string& fstr, const string& rstr){
+    if(str.empty() || fstr.empty()){
+        return string(); 
+    }
 
+    string tmp(str.begin(), str.end());
+    size_t pos = tmp.find(fstr);
+    if(pos != std::string::npos){
+        tmp.replace(tmp.begin() + pos, tmp.begin() + pos + fstr.size(), rstr);
+        pos = tmp.find(fstr);
+    }
+
+    return tmp;
 }
 
-string StringFormater::ReplaceEnd(const string str, const string fstr, const string rstr){
+string StringFormater::ReplaceEnd(const string& str, const string& fstr, const string& rstr){
 
+    if(str.empty() || fstr.empty()){
+        return string(); 
+    }
+
+    string tmp(str.begin(), str.end());
+    size_t pos = tmp.rfind(fstr);
+    if(pos != std::string::npos){
+        tmp.replace(tmp.begin() + pos, tmp.begin() + pos + fstr.size(), rstr);
+        pos = tmp.find(fstr);
+    }
+
+    return tmp;
 }
 
 void StringFormater::Upper(string& str){
@@ -72,12 +112,12 @@ void StringFormater::Lower(string& str){
 }
 
 //Remove all spaces
-string StringFormater::TrimSpecialChars(const string str){
-    list<string> specialChars = {"\n", "\t", "\t"};
+string StringFormater::TrimSpecialChars(const string& str){
+    list<string> specialChars = {"\n", "\r", "\t"};
     return ReplaceAll(str, specialChars, "");
 }
 
-string StringFormater::TrimSpace(const string str){
+string StringFormater::TrimSpace(const string& str){
     return ReplaceAll(str, " ", "");
 }
 

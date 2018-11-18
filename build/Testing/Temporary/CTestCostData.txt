@@ -1,6 +1,6 @@
-test_defer 25 7.88784e-05
-test_flags 25 7.17545e-05
-test_log 25 6.75583e-05
-test_singelton 25 6.49548e-05
-test_string 9 0.000187874
+test_defer 70 1.52281e-05
+test_flags 70 1.23433e-05
+test_log 70 1.2299e-05
+test_singelton 70 1.22411e-05
+test_string 27 3.36965e-05
 ---
